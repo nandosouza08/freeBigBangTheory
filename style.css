@@ -8,6 +8,10 @@
 }
 
 header {
+    
+}
+
+body {
     background-image: url('img/bg7.jpg');
     background-position: center center;
     background-size: 100vh no-repeat;
@@ -19,7 +23,8 @@ header {
 }
 
 h1 {
-    color: white;
+    color: black;
+    font-weight: bold;
 }
 
 select,
@@ -49,6 +54,10 @@ button:hover {
     transform: scale(1.03);
 }
 
+.clickP{
+    color: red;
+}
+
 .containerEps {
     display: none;
     width: 215px;
@@ -58,9 +67,9 @@ button:hover {
     height: 82.5vh;
     background-color: #f1eee9b6;
     border-radius: 5px;
-    transition: 1s;
-    animation: bounce 1s ;
-    -webkit-animation: bounce 1s;
+    
+    animation: bounce .5s ;
+    -webkit-animation: bounce .5s;
 }
 
 .containerEps2 {
@@ -73,9 +82,9 @@ button:hover {
     height: 82.5vh;
     background-color: #f1eee9b6;
     border-radius: 5px;
-    transition: 1s;
-    animation: bounce 1s ;
-    -webkit-animation: bounce 1s;
+    
+    animation: bounce .5s ;
+    -webkit-animation: bounce .5s;
 }
 
 @keyframes bounce {
@@ -90,7 +99,7 @@ button:hover {
 
 @keyframes mymove {
     0%   {top: -1000px;}
-    25%  {top: 146px;}
+    25%  {top: 142px;}
     
 }
 
@@ -112,8 +121,15 @@ p:hover {
     position: absolute;
     left: 27%;
     top: 15%;
-    width: 1000px;
+    width: 55vw;
     border-radius: 5px;
-    animation: mymove 4s ;
-    -webkit-animation: mymove 4s;
+    animation: mymove 2s ;
+    -webkit-animation: mymove 2s;
+}
+
+@media only screen and (max-widt: 845px) {
+    
+    .titulo{
+        color: white;
+    }
 }
