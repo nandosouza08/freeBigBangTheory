@@ -67,7 +67,6 @@ button:hover {
     height: 82.5vh;
     background-color: #f1eee9b6;
     border-radius: 5px;
-    
     animation: bounce .5s ;
     -webkit-animation: bounce .5s;
 }
@@ -82,7 +81,20 @@ button:hover {
     height: 82.5vh;
     background-color: #f1eee9b6;
     border-radius: 5px;
-    
+    animation: bounce .5s ;
+    -webkit-animation: bounce .5s;
+}
+
+.containerEps3 {
+    display: none;
+    width: 215px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    height: 82.5vh;
+    background-color: #f1eee9b6;
+    border-radius: 5px;
     animation: bounce .5s ;
     -webkit-animation: bounce .5s;
 }

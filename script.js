@@ -2,6 +2,7 @@ function selectTemp(){
 let temporada = document.querySelector('#select').value
 let containerEps = document.querySelector('.containerEps')
 let containerEps2 = document.querySelector('.containerEps2')
+let containerEps3 = document.querySelector('.containerEps3')
 let video = document.querySelector('.movie')
 
 video.setAttribute('src', '')
@@ -10,14 +11,21 @@ video.style.display = "none"
     if (temporada == 'default') {
         containerEps.style.display = "none"
         containerEps2.style.display = "none"
+        containerEps3.style.display = "none"
         video.setAttribute('src', '')
         video.style.display = "none"
     }else if (temporada == 'Temporada 01') {
         containerEps.style.display = "flex"
         containerEps2.style.display = "none"
+        containerEps3.style.display = "none"
     }else if (temporada == 'Temporada 02') {
         containerEps2.style.display = "flex"
         containerEps.style.display = "none"
+        containerEps3.style.display = "none"
+    }else if (temporada == 'Temporada 03') {
+        containerEps3.style.display = "flex"
+        containerEps.style.display = "none"
+        containerEps2.style.display = "none"
     }
 }
 //////////////////////////////////////////
@@ -279,4 +287,140 @@ function vigter2(){
     let video = document.querySelector('.movie')
     video.style.display = "flex"
     video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_5fe1a61773a74947b8e1748c6b6fc2a8/720p/mp4/file.mp4')
+}
+
+/////////////////////////
+// TERCEIRA TEMPORADA //
+///////////////////////
+
+function pri3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_cba9f5cc4e8c4c4899b84414ca70eeab/720p/mp4/file.mp4')
+}
+
+function seg3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_d0c0b33a70264c6fa040845c9cdcdd3f/720p/mp4/file.mp4')
+}
+
+function ter3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_c53616c78f174ae6ad4333fb595301f0/720p/mp4/file.mp4')
+}
+
+function qua3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_5029afd376964d2fa0fe42b1576a8ebd/720p/mp4/file.mp4')
+}
+
+function qui3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_9052542380f34bcea1bf97151c3230da/720p/mp4/file.mp4')
+}
+
+function sex3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_2680f6093bf740ee8124f0a7c55210f8/720p/mp4/file.mp4')
+}
+
+function set3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_195a5f53bc6e48cca43e6abbdf5a16a2/720p/mp4/file.mp4')
+}
+
+function oit3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_ae1a23d05f7e4b5e8a7cd921a7084fbf/720p/mp4/file.mp4')
+}
+
+function non3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_59fbf71032b44cf19f1c61100a08aa95/720p/mp4/file.mp4')
+}
+
+function dec3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_64903c677086499fa186cd171d1760af/720p/mp4/file.mp4')
+}
+
+function decp3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_51012fc176c94cd4bc5f9ecb5ed40464/720p/mp4/file.mp4')
+}
+
+function decs3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_430f4deb16394eac9f127a1bb4a5fb50/720p/mp4/file.mp4')
+}
+
+function dect3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_2a27a62975d946e38bbeb225ed457c2d/720p/mp4/file.mp4')
+}
+
+function decqua3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_eb15f445c44041ce8df89214f5056547/720p/mp4/file.mp4')
+}
+
+function decqui3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_22d6d0d4052e43c79952994cf2bf58d4/720p/mp4/file.mp4')
+}
+
+function decsex3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_50a20f55a340465b9f4127bacebc6c7b/720p/mp4/file.mp4')
+}
+
+function decset3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_831d54e608744c61bd4e05bdecdaf812/720p/mp4/file.mp4')
+}
+
+function decoit3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_e38efa3cff5e42ada5056616bff4f4c7/720p/mp4/file.mp4')
+}
+
+function decnon3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_b9518f6ba8174ca9b93e95e4b3736910/720p/mp4/file.mp4')
+}
+
+function vig3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_a62d2945af044759b3c545bca075e31e/720p/mp4/file.mp4')
+}
+
+function vigpri3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_886c617b7c704a07a40ae47bcfb0be72/720p/mp4/file.mp4')
+}
+
+function vigseg3(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', 'https://video.wixstatic.com/video/28b166_70533fcf757a4e14bc9fd8b2e3ea409c/720p/mp4/file.mp4')
 }
