@@ -27,8 +27,7 @@ h1 {
     font-weight: bold;
 }
 
-select,
-.containerEps {
+select, .containerEps {
     display: flex;
     padding: 5px;
     margin-top: 15px;
@@ -139,9 +138,48 @@ p:hover {
     -webkit-animation: mymove 2s;
 }
 
-@media only screen and (max-widt: 845px) {
+@media only screen and (max-width: 845px) {
     
-    .titulo{
+    h1{
         color: white;
+    }
+    body{
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .movie{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        /* padding-left: 20px;
+        padding-top: 20px; */
+        top: 55vh;
+        left: 1%;
+        right: 1%;
+        
+    }
+    .containerEps2{
+        height: 630px;
+        align-items: center;
+        justify-content: center;
+    }
+    .containerEps2 p{
+        padding-top: 7px;
+        align-items: center;
+        justify-content: center;
+    }
+    select{
+        
+        justify-content: center;
+        align-items: center;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
