@@ -103,6 +103,23 @@ const terceiraTemporada = [
     'https://video.wixstatic.com/video/28b166_70533fcf757a4e14bc9fd8b2e3ea409c/720p/mp4/file.mp4'
 ]
 
+//////////////////////////////////////////////////
+// FUNÇÃO DE FECHAR O VIDEO AO CLICAR NA TELA //
+////////////////////////////////////////////////
+
+
+
+
+function buttonCloseVideo() {
+    let video = document.querySelector('.movie')
+    const closeButton = document.querySelector('.closeButton')
+    closeButton.style.display = "none"
+    video.setAttribute('src', '')
+    video.style.display = "none"
+    console.log(video)
+}
+
+
 
 //////////////////////////////////////////
 // MUDAR A COR DO BOTÃO AO SER CLICADO //
@@ -110,8 +127,11 @@ const terceiraTemporada = [
 
 const paragrafo = document.querySelectorAll('p');
 
+
 function changeColor() {
+    const closeButton = document.querySelector('.closeButton')
     this.classList.toggle('clickP')
+    closeButton.style.display = "flex"
 }
 
 paragrafo.forEach(item => {
@@ -124,7 +144,6 @@ paragrafo.forEach(item => {
 
 function pri(){
     let video = document.querySelector('.movie')
-    console.log()
     video.style.display = "flex"
     video.setAttribute('src', primeiraTemporada[0])
 }
