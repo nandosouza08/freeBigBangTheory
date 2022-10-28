@@ -165,13 +165,11 @@ p:hover {
         display: none;
         justify-content: center;
         align-items: center;
-        width: 90vw;
+        width: 80vw;
         /* padding-left: 20px;
         padding-top: 20px; */
         top: 17vh;
-        left: 5%;
-        right: 1%;
-        
+        left: 10%;        
     }
     .containerEps{
         height: 520px;
@@ -209,7 +207,7 @@ p:hover {
         border-radius: 50%;
         position: relative;
         float: right;
-        right: 3%;
+        right: 10%;
         top: 20%;
         cursor: pointer;
     }
