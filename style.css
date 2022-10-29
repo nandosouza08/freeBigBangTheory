@@ -65,6 +65,7 @@ button:hover {
     justify-content: center;
     height: 82.5vh;
     background-color: #f1eee9b6;
+    box-shadow: 0 15px 25px rgba(0,0,0,.9);
     border-radius: 5px;
     animation: bounce .5s ;
     -webkit-animation: bounce .5s;
@@ -79,6 +80,7 @@ button:hover {
     margin-top: 15px;
     height: 82.5vh;
     background-color: #f1eee9b6;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 5px;
     animation: bounce .5s ;
     -webkit-animation: bounce .5s;
@@ -93,6 +95,7 @@ button:hover {
     margin-top: 15px;
     height: 82.5vh;
     background-color: #f1eee9b6;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 5px;
     animation: bounce .5s ;
     -webkit-animation: bounce .5s;
