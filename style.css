@@ -221,3 +221,23 @@ p:hover {
     }
     
 }
+
+@media only screen and (max-width: 920px) {
+    .movie{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        left: 0px;         
+    }
+    .closeButton{
+        display: none;
+        z-index: 100;
+        border-radius: 50%;
+        position: relative;
+        float: right;
+        right: 1px;
+        top: 20%;
+        cursor: pointer;
+    }
+}
