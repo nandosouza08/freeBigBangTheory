@@ -111,7 +111,7 @@ button:hover {
     align-items: center;
     justify-content: center;
     margin-top: 15px;
-    height: 79.5vh;
+    height: 85.5vh;
     margin-bottom: 20px;
     background-color: #f1eee9ea;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
@@ -213,7 +213,7 @@ p:hover {
     }
 
     .containerEps4{
-        height: 85.5vh;
+        height: 80.5vh;
     }
 
     select{
@@ -307,7 +307,7 @@ p:hover {
     }
 
     .containerEps4{
-        height: 85.5vh;
+        height: 75.5vh;
     }
 
     select{
@@ -341,7 +341,7 @@ p:hover {
 
 @media only screen and (max-width: 920px) {
     .movie{
-        display: block;
+        display: none;
         justify-content: center;
         align-items: center;
         width: 100vw;
