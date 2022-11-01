@@ -265,6 +265,13 @@ p:hover {
 }
 
 @media only screen and (max-width: 920px) {
+    
+    body{
+        background-image: url('img/b3a35d257c820adb9dd39a996033a0e9.jpg');
+        background-position: center center;
+        background-size: 100%;
+    }
+    
     .movie{
         display: none;
         justify-content: center;
