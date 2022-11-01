@@ -170,81 +170,6 @@ p:hover {
     float: right;
 }
 
-@media only screen and (max-width: 8920px) {
-
-    
-    h1{
-        color: white;
-    }
-    body{
-        justify-content: center;
-        width: 100vw;
-        height: 100vh;
-        flex-direction: column;
-    }
-    .movie{
-        display: none;
-        justify-content: center;
-        align-items: center;
-        width: 65vw;
-        /* padding-left: 20px;
-        padding-top: 20px; */
-        top: 17vh;
-        left: 17.8%;        
-    }
-    .containerEps{
-        height: 520px;
-    }
-
-    .containerEps2{
-        height: 630px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .containerEps3{
-        height: 660px;
-    }
-
-    .containerEps2 p{
-        padding-top: 7px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .containerEps4{
-        height: 80.5vh;
-    }
-
-    select{
-        
-        justify-content: center;
-        align-items: center;
-    }
-    header{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .closeButton{
-        display: none;
-        z-index: 100;
-        border-radius: 50%;
-        position: relative;
-        float: right;
-        right: 16%;
-        top: 20%;
-        cursor: pointer;
-    }
-    .containerClose{
-        float: inline-start;
-        width: 100%;
-        height: 30px;
-    }
-    
-}
-
 @media only screen and (max-width: 920px) {
     .movie{
         display: block;
@@ -307,7 +232,7 @@ p:hover {
     }
 
     .containerEps4{
-        height: 75.5vh;
+        height: 680px;
     }
 
     select{
@@ -358,7 +283,7 @@ p:hover {
         cursor: pointer;
     }
     .containerEps4{
-        height: 85vh;
+        height: 680px;
     }
 }
 
@@ -381,6 +306,6 @@ p:hover {
         cursor: pointer;
     }
     .containerEps4{
-        height: 105vh;
+        height: 680px;
     }
 }
