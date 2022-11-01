@@ -111,7 +111,7 @@ button:hover {
     align-items: center;
     justify-content: center;
     margin-top: 15px;
-    height: 78.5vh;
+    height: 79.5vh;
     margin-bottom: 20px;
     background-color: #f1eee9ea;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
@@ -210,6 +210,11 @@ p:hover {
         align-items: center;
         justify-content: center;
     }
+
+    .containerEps4{
+        height: 85.5vh;
+    }
+
     select{
         
         justify-content: center;
