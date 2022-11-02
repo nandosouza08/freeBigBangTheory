@@ -35,6 +35,7 @@ select, .containerEps {
     width: 215px;
     height: 30px;
     border-radius: 5px;
+    
 }
 
 button {
@@ -43,15 +44,17 @@ button {
     width: 215px;
     border-radius: 5px;
     border: 5px green solid;
-    transition: .3s;
+    transition: .1s;
     font-weight: bold;
     font-size: 15px;
     background-color: green;
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
     color: white;
 }
 
 button:hover {
-    transform: scale(1.03);
+    
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.9);
 }
 
 .clickP{
