@@ -12,9 +12,10 @@ header {
 }
 
 body {
-    background-image: url('img/bg7.jpg');
+    background-image: url('img/gwujWb7.jpg');
+    background-size: cover;
+    background-repeat: repeat;
     background-position: center center;
-    background-size: 100vh no-repeat;
     width: 100vw;
     height: 100vh;
     display: absolute;
@@ -267,9 +268,9 @@ p:hover {
 @media only screen and (max-width: 920px) {
     
     body{
-        background-image: url('img/b3a35d257c820adb9dd39a996033a0e9.jpg');
-        background-position: center center;
-        background-size: 100%;
+        /* background-image: url('img/b3a35d257c820adb9dd39a996033a0e9.jpg');
+        background-position: center center; */
+        background-size: cover;
     }
     
     .movie{
