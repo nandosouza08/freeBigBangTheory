@@ -5,10 +5,10 @@ let containerEps2 = document.querySelector('.containerEps2')
 let containerEps3 = document.querySelector('.containerEps3')
 let containerEps4 = document.querySelector('.containerEps4')
 let video = document.querySelector('.movie')
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 video.setAttribute('src', '')
 video.style.display = "none"
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 if (temporada == 'default') {
     containerEps.style.display = "none"
     containerEps2.style.display = "none"
@@ -38,9 +38,8 @@ if (temporada == 'default') {
     containerEps4.style.display = "flex"
 }
 }
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 const primeiraTemporada = [
-
     'https://video.wixstatic.com/video/28b166_cfac9986b8d24375969fdb80e8559fe3/720p/mp4/file.mp4',
     'https://video.wixstatic.com/video/28b166_7abf0a36c0e94fcf8e4f0cda519d0a3a/720p/mp4/file.mp4',
     'https://video.wixstatic.com/video/28b166_2f474b9df7714e7ab9de8d01de47b6e4/720p/mp4/file.mp4',
@@ -59,9 +58,8 @@ const primeiraTemporada = [
     'https://video.wixstatic.com/video/28b166_6818c3dc61e2450e9484f963290f329b/720p/mp4/file.mp4',
     'https://video.wixstatic.com/video/28b166_1a1b81c782fe426695261d88cef3efde/720p/mp4/file.mp4'
 ];
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 const segundaTemporada = [
-
     'https://video.wixstatic.com/video/28b166_cf3c27234abf442dba1ad7d3d00ae9e6/720p/mp4/file.mp4',
     'https://video.wixstatic.com/video/28b166_c8abd0cf25274401b22682fb9ded26c5/720p/mp4/file.mp4',
     'https://video.wixstatic.com/video/28b166_d22565f0065048e3a30895b634402bdd/720p/mp4/file.mp4',
@@ -86,9 +84,8 @@ const segundaTemporada = [
     'https://video.wixstatic.com/video/28b166_78ec75a620ac4b138f8e53d754e9cc27/720p/mp4/file.mp4',
     'https://video.wixstatic.com/video/28b166_5fe1a61773a74947b8e1748c6b6fc2a8/720p/mp4/file.mp4'
 ];
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 const terceiraTemporada = [
-
     'https://video.wixstatic.com/video/28b166_cba9f5cc4e8c4c4899b84414ca70eeab/720p/mp4/file.mp4',
     'https://video.wixstatic.com/video/28b166_d0c0b33a70264c6fa040845c9cdcdd3f/720p/mp4/file.mp4',
     'https://video.wixstatic.com/video/28b166_c53616c78f174ae6ad4333fb595301f0/720p/mp4/file.mp4',
@@ -112,7 +109,7 @@ const terceiraTemporada = [
     'https://video.wixstatic.com/video/28b166_886c617b7c704a07a40ae47bcfb0be72/720p/mp4/file.mp4',
     'https://video.wixstatic.com/video/28b166_70533fcf757a4e14bc9fd8b2e3ea409c/720p/mp4/file.mp4'
 ]
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 const quartaTemporada = [
     'https://video.wixstatic.com/video/28b166_2a98cc52b4c242d2b6a76cc9210f3e5e/720p/mp4/file.mp4',
     'https://video.wixstatic.com/video/28b166_74d46dd7a75c4a01a2db26102805b148/720p/mp4/file.mp4',
@@ -693,4 +690,10 @@ function vigter4(){
     let video = document.querySelector('.movie')
     video.style.display = "flex"
     video.setAttribute('src', quartaTemporada[22])
+}
+
+function vigqua4(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quartaTemporada[23])
 }
