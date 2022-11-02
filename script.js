@@ -689,7 +689,7 @@ function vigseg4(){
     video.setAttribute('src', quartaTemporada[21])
 }
 
-function vigster4(){
+function vigter4(){
     let video = document.querySelector('.movie')
     video.style.display = "flex"
     video.setAttribute('src', quartaTemporada[22])
