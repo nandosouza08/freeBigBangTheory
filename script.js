@@ -1,9 +1,12 @@
 function selectTemp(){
+const closeButton = document.querySelector('.closeButton')
+closeButton.style.display = "none"
 let temporada = document.querySelector('#select').value
 let containerEps = document.querySelector('.containerEps')
 let containerEps2 = document.querySelector('.containerEps2')
 let containerEps3 = document.querySelector('.containerEps3')
 let containerEps4 = document.querySelector('.containerEps4')
+let containerEps5 = document.querySelector('.containerEps5')
 let video = document.querySelector('.movie')
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 video.setAttribute('src', '')
@@ -14,6 +17,7 @@ if (temporada == 'default') {
     containerEps2.style.display = "none"
     containerEps3.style.display = "none"
     containerEps4.style.display = "none"
+    containerEps5.style.display = "none"
     video.setAttribute('src', '')
     video.style.display = "none"
 }else if (temporada == 'Temporada 01') {
@@ -21,21 +25,31 @@ if (temporada == 'default') {
     containerEps2.style.display = "none"
     containerEps3.style.display = "none"
     containerEps4.style.display = "none"
+    containerEps5.style.display = "none"
 }else if (temporada == 'Temporada 02') {
     containerEps2.style.display = "flex"
     containerEps.style.display = "none"
     containerEps3.style.display = "none"
     containerEps4.style.display = "none"
+    containerEps5.style.display = "none"
 }else if (temporada == 'Temporada 03') {
     containerEps3.style.display = "flex"
     containerEps.style.display = "none"
     containerEps2.style.display = "none"
     containerEps4.style.display = "none"
+    containerEps5.style.display = "none"
 }else if (temporada == 'Temporada 04') {
     containerEps.style.display = "none"
     containerEps2.style.display = "none"
     containerEps3.style.display = "none"
     containerEps4.style.display = "flex"
+    containerEps5.style.display = "none"
+}else if (temporada == 'Temporada 05') {
+    containerEps.style.display = "none"
+    containerEps2.style.display = "none"
+    containerEps3.style.display = "none"
+    containerEps4.style.display = "none"
+    containerEps5.style.display = "flex"
 }
 }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -135,6 +149,33 @@ const quartaTemporada = [
     'https://video.wixstatic.com/video/28b166_452b02da62a3486b93369d8e72a22c54/720p/mp4/file.mp4',
     'https://video.wixstatic.com/video/28b166_748216c89bbd43338cc08ae5695383c5/720p/mp4/file.mp4',
     'https://video.wixstatic.com/video/28b166_3d613cb007da42a483c3c05a4d415ffd/720p/mp4/file.mp4'
+]
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+const quintaTemporada = [
+    'https://video.wixstatic.com/video/28b166_8f83e56bf11f4c56b1e6e29d5c910d94/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_f67048316e5741e1a83f3bcce91ebf4b/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_a61fc19294bb413ab10a8ce444606bf3/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_e7518a6476814516b51c9475cda2f16c/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_4c1c5b8e65664e938d9cd8c25ffb0dd1/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_3fa9932c557c417cb7d74e439c0bf8b6/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_b9095aa74a164f478ddd3239d7cf1600/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_faa4cc163844410dbb86d74330f1bcf8/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_87b3561d6b3c4637b195d9422cb61a75/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_e5d7d5ae05264b07b5c083a81a9bd6e3/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_f190e1ea7446487cb94185d717791293/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_ae2a197451a34f0e8ab64160cbb27b52/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_7805097e8eda492abac86c76d51a956f/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_c582acee4ff94ca183bc2d86f86a8d84/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_46093a88e7e64a4ea2253f636e7531bc/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_c673f9e58dc64c34a985813d9ccf6007/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_ba8325cab5134ddcafa1c95bbc9ec49c/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_0b0b3548c4d64a6b9e910bd1f639400d/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_e85df395517a442686d5d3b7cf7ddc58/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_a5c926d1c89c404bb5a06285c6283b7f/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_45b59e0398ad4469911fa9284c04f874/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_6279e25b56f2497eac668ba7ce0594d1/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_2f8a4b1d6c2e4511a5ac525c0ff29a0f/720p/mp4/file.mp4',
+    'https://video.wixstatic.com/video/28b166_4d46453acce74208b0f4e752f9b104ec/720p/mp4/file.mp4'
 ]
 
 //////////////////////////////////////////////////
@@ -696,4 +737,152 @@ function vigqua4(){
     let video = document.querySelector('.movie')
     video.style.display = "flex"
     video.setAttribute('src', quartaTemporada[23])
+}
+
+///////////////////////
+// QUINTA TEMPORADA //
+/////////////////////
+
+function pri5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[0])
+}
+
+function seg5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[1])
+}
+
+function ter5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[2])
+}
+
+function qua5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[3])
+}
+
+function qui5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[4])
+}
+
+function sex5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[5])
+}
+
+function set5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[6])
+}
+
+function oit5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[7])
+}
+
+function non5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[8])
+}
+
+function dec5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[9])
+}
+
+function decp5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[10])
+}
+
+function decs5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[11])
+}
+
+function dect5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[12])
+}
+
+function decqua5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[13])
+}
+
+function decqui5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[14])
+}
+
+function decsex5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[15])
+}
+
+function decset5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[16])
+}
+
+function decoit5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[17])
+}
+
+function decnon5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[18])
+}
+
+function vig5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[19])
+}
+
+function vigpri5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[20])
+}
+
+function vigseg5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[21])
+}
+
+function vigter5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[22])
+}
+
+function vigqua5(){
+    let video = document.querySelector('.movie')
+    video.style.display = "flex"
+    video.setAttribute('src', quintaTemporada[23])
 }

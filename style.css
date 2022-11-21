@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira', sans-serif;
 }
 
 header {
@@ -109,6 +109,22 @@ button:hover {
 }
 
 .containerEps4 {
+    display: none;
+    width: 215px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    height: 85.5vh;
+    margin-bottom: 20px;
+    background-color: #f1eee9ea;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 5px;
+    animation: bounce .5s ;
+    -webkit-animation: bounce .5s;
+}
+
+.containerEps5 {
     display: none;
     width: 215px;
     flex-direction: column;
@@ -238,6 +254,9 @@ p:hover {
     .containerEps4{
         height: 730px;
     }
+    .containerEps5{
+        height: 730px;
+    }
 
     select{
         
@@ -296,6 +315,9 @@ p:hover {
     .containerEps4{
         height: 730px;
     }
+    .containerEps5{
+        height: 730px;
+    }
 }
 
 @media only screen and (max-width: 380px) {
@@ -317,6 +339,9 @@ p:hover {
         cursor: pointer;
     }
     .containerEps4{
+        height: 730px;
+    }
+    .containerEps5{
         height: 730px;
     }
 }
