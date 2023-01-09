@@ -1694,10 +1694,6 @@ function vigter12(){
     window.open(decimaSegundaTemporada[22], "_blank")
 }
 
-function vigqua12(){
-    window.open(decimaSegundaTemporada[23], "_blank")
-}
-
 //////////////////////////////
 // FEITO POR LUIZ FERNANDO //
 ////////////////////////////
