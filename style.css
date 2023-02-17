@@ -43,13 +43,10 @@ header {
 }
 
 body {
-    background-image: url(img/281920\ \(1\).jpg);
+    background-image: url(img/gif/untitled.gif);
     background-size: cover;
     background-repeat: repeat;
     background-position: center center;
-    backdrop-filter: url(filters.svg#filter) blur(15px) saturate(100%) grayscale(40%);
-    /* backdrop-filter: blur(18px) grayscale(10%); */
-    /* backdrop-filter: grayscale(10%); */
     width: 100vw;
     height: 100vh;
     display: absolute;
